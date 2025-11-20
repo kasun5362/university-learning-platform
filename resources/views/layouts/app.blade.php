@@ -11,7 +11,14 @@
 </head>
 <body class="bg-light .bg-gradient text-dark">
 
+    @include("layouts.navigation")
+    <div class="container-fluid" style="margin-top: 60px">
+        @yield("content")
+    </div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    
 </body>
 </html>
